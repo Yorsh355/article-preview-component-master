@@ -199,6 +199,7 @@ main {
     top: -60%;
     left: 65%;
     display: grid;
+    place-items: center;
     grid-template-columns: 1.5fr 2fr;
     align-items: center;
     border-radius: 1rem;
@@ -222,6 +223,7 @@ main {
   .overlay p {
     font-size: 1.6rem;
   }
+
   .social {
     display: grid;
     justify-self: self-start;
